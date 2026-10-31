@@ -1,0 +1,33 @@
+{
+    "project_name": "Flower Types Classification",
+    "dataset_name": "5 Flower Types Classification Dataset",
+    "dataset_url": "https://www.kaggle.com/datasets/kausthubkannan/5-flower-types-classification-dataset",
+    "model_name": "MobileNetV2",
+    "pretrained_weights": "ImageNet",
+    "transfer_learning": true,
+    "base_model_trainable": false,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "epochs": 8,
+    "image_size": [
+        160,
+        160
+    ],
+    "batch_size": 32,
+    "dataset_split": "80% training / 20% validation",
+    "classes": [
+        "Lilly",
+        "Lotus",
+        "Orchid",
+        "Sunflower",
+        "Tulip"
+    ],
+    "training_accuracy": 0.8845000267028809,
+    "validation_accuracy": 0.9519519805908203,
+    "training_loss": 0.3277956247329712,
+    "validation_loss": 0.16048748791217804,
+    "validation_evaluation_loss": 0.16048748791217804,
+    "validation_evaluation_accuracy": 0.9519519805908203,
+    "total_parameters": 2264389,
+    "trainable_parameters": 6405
+}

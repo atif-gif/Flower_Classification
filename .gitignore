@@ -1,0 +1,10 @@
+kaggle.json
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+flower_dataset/
+*.zip
